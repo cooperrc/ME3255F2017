@@ -17,6 +17,7 @@ matlab/octave functions and programming best practices.
 
 
 **Lectures**: 001 MoWeFr 10:10-11:00 am, Philip E. Austin bdg (Aust) rm 434
+
               002 TuTh 12:30-1:45 PM, Charles Lewis Beach Hall (BCH) rm 317
 
 **Instructor**: Prof. Ryan C. Cooper (ryan.c.cooper@uconn.edu)
@@ -24,8 +25,8 @@ matlab/octave functions and programming best practices.
 **Office hours**: TuTh 1:00-3:00pm in Engineering II room 314
 
 ## Teaching Assistants:
-- Graduate: Peiyu Zhang <peiyu.zhang@uconn.edu>
-- Office hours: Friday 9:00-11:00am in Engineering II room 315
+- Graduate: Zhiqiang Shen <zhiqiang.shen@uconn.edu>
+- Office hours: TBD in Engineering II room 315
 
 ## Course Information
 **Prerequisite:** CE 3110, MATH 2410Q 
@@ -40,20 +41,20 @@ Scientists* 3rd edition.
 Jupyter notebook (with matlab or octave kernel) 
 
 ## Grading
-
 | Item | Percent | Requirement |
 |---------|---|---------------------------|
-| Homework | 50 % | Turn in homeworks by assigned due date|
-| Midterm Exam | 10 % | One midterm exam |
+| Homework | 40 % | Turn in homeworks by assigned due date|
+| Midterm Exam | 20 % | One midterm exam |
 | Final Project | 30 % | A final project that will consist of code and documentation |
-| Participation | 10 % | During class online form will be sent out, you must submit form with your user ID to get credit |
+| Participation | 10 % | Online video-quizzes and Google Forms |
 
 ### Note on Homework and online forms
 
-The Homeworks are graded based upon effort, correctness, and completeness. The forms are not graded at
-all, if they are completed you get credit. It is *your* responsibility to make sure your
-answers are correct. Use the homeworks and forms as a study guide for the exams. In
-general, I will not post homework solutions. 
+The Homeworks are graded based upon effort, correctness, and completeness. The forms and
+video-quizzes are graded based upon completion, if they are completed you get credit. It
+is *your* responsibility to make sure your answers are correct. Use the homeworks and
+forms as a study guide for the midterm and final project. In general, I will not post
+homework solutions, but I will review solutions in class.
 
 
 ## Academic Integrity: 
@@ -69,34 +70,34 @@ general, I will not post homework solutions.
 ## Course Schedule (which is subject to change based upon feedback and pace of course)
 | Week | Date |Chapter| Topic |
 |---|---|---|---|
-|1|1/17|1|Introduction to Numerical Methods and Github|
-|   |1/19|4|Intro con’d and Roundoff/Truncation Errors|
-|2|1/24|2|Intro to Matlab/Octave| 
-|   |1/26|3|Intro to m-files|
-|3|1/31||Consistent Coding habits|
-|   |2/2|5|Root Finding| 
-|4|2/7|6|Root Finding con’d|      
-|   |2/9|7| **Snow Day**|      
-|5|2/14|| Optimization |
-|   |2/16|8|Linear Algebra|
-|6|2/21|9|Linear systems: Gauss elimination|
-|   |2/23|10|Linear Systems: LU factorization|
-|7|2/28|11|Linear Systems: Error analysis|
-|   |3/2|12|Eigenvalues|
-|8|3/7|1-10 |Midterm Review|
-|   |3/9|1-10|Midterm|
-|9|3/14| N/A |Spring Break!|
-|   |3/16| N/A |Spring Break!|
-|10|3/21|12|Linear Systems: Iterative methods|
-|   |3/23|14|Curve fitting: linear regression|
-|11|3/28|15|Curve fitting: least squares and nonlinear regression|
-|   |3/30|17|Polynomial interpolation|
-|12|4/4|18|Splines and Piecewise Interpolation|
-|   |4/6|19|Numerical Integration Formulas|
-|14|4/11|20|Numerical Integration of Functions|
-|   |4/13|21|Numerical Differentiation|
-|15|4/18|22|ODEs: Initial value problem|
-|   |4/20|23|ODEs: Adaptive methods and stiff systems|
-|16|4/25|24|ODEs: Boundary value problems|
-|   |4/27||Wrap up and final project discussions|
-|17| 5/1  |Finals| Finals Best of Lucks!|
+|1|8/28|1|Introduction to Numerical Methods and Github|
+|   ||4|Intro con’d and Roundoff/Truncation Errors|
+|2|9/4|2|Intro to Matlab/Octave| 
+|   ||3|Intro to m-files|
+|3|9/11||Consistent Coding habits|
+|   |||Using Github and writing functions| 
+|4|9/18|5|Root Finding|      
+|   ||6|Root Finding con’d|      
+|5|9/25|7| Optimization |
+|   ||8|Linear Algebra|
+|6|10/23|9|Linear systems: Gauss elimination|
+|   ||10|Linear Systems: LU factorization|
+|7|10/9|11|Linear Systems: Error analysis|
+|   ||12|Eigenvalues|
+|8|10/16|1-10 |Midterm Review|
+|   ||1-10|Midterm|
+|9|10/23|12|Linear Systems: Iterative methods|
+|   ||14|Curve fitting: linear regression|
+|10|10/30|15|Curve fitting: least squares and nonlinear regression|
+|   ||17|Polynomial interpolation|
+|11|11/6|18|Splines and Piecewise Interpolation|
+|   ||19|Numerical Integration Formulas|
+|12|11/13|20|Numerical Integration of Functions|
+|   ||21|Numerical Differentiation|
+|14|11/20||Thanksgiving break|
+|   |||Thanksgiving break|
+|15|11/28|22|ODEs: Initial value problem|
+|   ||23|ODEs: Adaptive methods and stiff systems|
+|16|12/4|24|ODEs: Boundary value problems|
+|   |||Wrap up and final project discussions|
+|17|12/11|Finals| Finals Best of Lucks!|
