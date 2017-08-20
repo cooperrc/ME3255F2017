@@ -1,7 +1,7 @@
 # Computational Mechanics
 ## ME 3255 Spring 2017
-### Github page: [https://github.uconn.edu/rcc02007/ME3255S2017.git]
-### Public (ipynb rendering)[https://github.com/cooperrc/ME3255S2017]
+### Public (ipynb rendering)[https://github.com/cooperrc/ME3255F2017]
+### Github page: [https://github.uconn.edu/rcc02007/ME3255F2017.git]
 
 ### Course Description
 This course introduces students to scientific programming utilizing Matlab/Octave.
@@ -16,11 +16,12 @@ integration. Students are also expected to learn basics of git version control,
 matlab/octave functions and programming best practices. 
 
 
-**Lectures**: TTh 9:30-10:45 AM, Francis L. Castleman bdg (CAST) room 212
+**Lectures**: 001 MoWeFr 10:10-11:00 am, Philip E. Austin bdg (Aust) rm 434
+              002 TuTh 12:30-1:45 PM, Charles Lewis Beach Hall (BCH) rm 317
 
 **Instructor**: Prof. Ryan C. Cooper (ryan.c.cooper@uconn.edu)
 
-**Office hours**: Mon 2:30-4:30pm and Thur 11am-1pm in Engineering II room 315
+**Office hours**: TuTh 1:00-3:00pm in Engineering II room 314
 
 ## Teaching Assistants:
 - Graduate: Peiyu Zhang <peiyu.zhang@uconn.edu>
