@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="computational-mechanics">Computational Mechanics</h1>
+<h2 id="me-3255-spring-2017">ME 3255 Spring 2017</h2>
+<h3 id="public-ipynb-rendering-httpsgithub.comcooperrcme3255f2017">Public (ipynb rendering) <a href="https://github.com/cooperrc/ME3255F2017" class="uri">https://github.com/cooperrc/ME3255F2017</a></h3>
+<h3 id="github-page-httpsgithub.uconn.edurcc02007me3255f2017.git">Github page: <a href="https://github.uconn.edu/rcc02007/ME3255F2017.git" class="uri">https://github.uconn.edu/rcc02007/ME3255F2017.git</a></h3>
+<h3 id="course-description">Course Description</h3>
+<p>This course introduces students to scientific programming utilizing Matlab/Octave. Numerical methods, best programming practices and version control are introduced. These methods will be applied to a number of physics-based problems.</p>
+<h3 id="course-expectations">Course Expectations</h3>
+<p>Students are expected to create numerical approximations for linear and nonlinear problems, understand approximations due to floating point operations and numerical approaches and solve differential equations using numerical differentiation and integration. Students are also expected to learn basics of git version control, matlab/octave functions and programming best practices.</p>
+<p><strong>Lectures</strong>:</p>
+<ul>
+<li><p>001 MoWeFr 10:10-11:00 am, Philip E. Austin bdg (Aust) rm 434</p></li>
+<li><p>002 TuTh 12:30-1:45 PM, Charles Lewis Beach Hall (BCH) rm 317</p></li>
+</ul>
+<p><strong>Instructor</strong>: Prof. Ryan C. Cooper (ryan.c.cooper@uconn.edu)</p>
+<p><strong>Office hours</strong>: TuTh 1:00-3:00pm in Engineering II room 314</p>
+<h2 id="teaching-assistants">Teaching Assistants:</h2>
+<ul>
+<li>Graduate: Zhiqiang Shen <script type="text/javascript">
+<!--
+h='&#x75;&#x63;&#x6f;&#110;&#110;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#122;&#104;&#x69;&#x71;&#x69;&#x61;&#110;&#x67;&#46;&#x73;&#104;&#x65;&#110;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#122;&#104;&#x69;&#x71;&#x69;&#x61;&#110;&#x67;&#46;&#x73;&#104;&#x65;&#110;&#32;&#x61;&#116;&#32;&#x75;&#x63;&#x6f;&#110;&#110;&#32;&#100;&#x6f;&#116;&#32;&#x65;&#100;&#x75;</noscript></li>
+<li>Office hours: TBD in Engineering II room 315</li>
+</ul>
+<h2 id="course-information">Course Information</h2>
+<p><strong>Prerequisite:</strong> CE 3110, MATH 2410Q</p>
+<p><strong>Textbook:</strong> Chapra, Steven, <em>Applied Numerical Methods with MATLAB for Engineers and Scientists</em> 3rd edition.</p>
+<p><strong>Tools used:</strong> <a href="https://www.mathworks.com/products/matlab.html">Matlab</a>, <a href="https://www.gnu.org/software/octave/">Octave</a> , <a href="https://github.com">Github</a>.</p>
+<p><strong>Recommended tools:</strong> Github Desktop, git, Atom (text editor), Vim (text editor), Jupyter notebook (with matlab or octave kernel)</p>
+<h2 id="grading">Grading</h2>
+<table style="width:58%;">
+<colgroup>
+<col width="13%" />
+<col width="5%" />
+<col width="38%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Percent</th>
+<th align="left">Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Homework</td>
+<td align="left">40 %</td>
+<td align="left">Turn in homeworks by assigned due date</td>
+</tr>
+<tr class="even">
+<td align="left">Midterm Exam</td>
+<td align="left">20 %</td>
+<td align="left">One midterm exam</td>
+</tr>
+<tr class="odd">
+<td align="left">Final Project</td>
+<td align="left">30 %</td>
+<td align="left">A final project that will consist of code and documentation</td>
+</tr>
+<tr class="even">
+<td align="left">Participation</td>
+<td align="left">10 %</td>
+<td align="left">Online video-quizzes and Google Forms</td>
+</tr>
+</tbody>
+</table>
+<h3 id="note-on-homework-and-online-forms">Note on Homework and online forms</h3>
+<p>The Homeworks are graded based upon effort, correctness, and completeness. The forms and video-quizzes are graded based upon completion, if they are completed you get credit. It is <em>your</em> responsibility to make sure your answers are correct. Use the homeworks, videos, and forms as a study guide for the midterm and final project. In general, I will not post homework solutions, but I will review solutions in class.</p>
+<h2 id="academic-integrity">Academic Integrity:</h2>
+<ul>
+<li>The instructors of this class have a zero-tolerance policy for academic misconduct, that is copying others’ work either in the lab, field, or on an exam. Any student work that is found to be in violation of the university policy regarding academic misconduct will be assigned a grade of zero at a minimum.</li>
+<li>Read and understand <a href="http://www.community.uconn.edu/student_code.html" title="The Student Code for Academic Integrity">The UConn Student Code of Conduct</a>. Students will follow all University regulations concerning the final exam.</li>
+</ul>
+<h2 id="course-schedule-which-is-subject-to-change-based-upon-feedback-and-pace-of-course">Course Schedule (which is subject to change based upon feedback and pace of course)</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Week</th>
+<th align="left">Date</th>
+<th align="left">Chapter</th>
+<th align="left">Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">1</td>
+<td align="left">8/28</td>
+<td align="left">1</td>
+<td align="left">Introduction to Numerical Methods and Github</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">4</td>
+<td align="left">Intro con’d and Roundoff/Truncation Errors</td>
+</tr>
+<tr class="odd">
+<td align="left">2</td>
+<td align="left">9/4</td>
+<td align="left">2</td>
+<td align="left">Intro to Matlab/Octave</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">3</td>
+<td align="left">Intro to m-files</td>
+</tr>
+<tr class="odd">
+<td align="left">3</td>
+<td align="left">9/11</td>
+<td align="left"></td>
+<td align="left">Consistent Coding habits</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">Using Github and writing functions</td>
+</tr>
+<tr class="odd">
+<td align="left">4</td>
+<td align="left">9/18</td>
+<td align="left">5</td>
+<td align="left">Root Finding</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">6</td>
+<td align="left">Root Finding con’d</td>
+</tr>
+<tr class="odd">
+<td align="left">5</td>
+<td align="left">9/25</td>
+<td align="left">7</td>
+<td align="left">Optimization</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">8</td>
+<td align="left">Linear Algebra</td>
+</tr>
+<tr class="odd">
+<td align="left">6</td>
+<td align="left">10/23</td>
+<td align="left">9</td>
+<td align="left">Linear systems: Gauss elimination</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">10</td>
+<td align="left">Linear Systems: LU factorization</td>
+</tr>
+<tr class="odd">
+<td align="left">7</td>
+<td align="left">10/9</td>
+<td align="left">11</td>
+<td align="left">Linear Systems: Error analysis</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">12</td>
+<td align="left">Eigenvalues</td>
+</tr>
+<tr class="odd">
+<td align="left">8</td>
+<td align="left">10/16</td>
+<td align="left">1-10</td>
+<td align="left">Midterm Review</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">1-10</td>
+<td align="left">Midterm</td>
+</tr>
+<tr class="odd">
+<td align="left">9</td>
+<td align="left">10/23</td>
+<td align="left">12</td>
+<td align="left">Linear Systems: Iterative methods</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">14</td>
+<td align="left">Curve fitting: linear regression</td>
+</tr>
+<tr class="odd">
+<td align="left">10</td>
+<td align="left">10/30</td>
+<td align="left">15</td>
+<td align="left">Curve fitting: least squares and nonlinear regression</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">17</td>
+<td align="left">Polynomial interpolation</td>
+</tr>
+<tr class="odd">
+<td align="left">11</td>
+<td align="left">11/6</td>
+<td align="left">18</td>
+<td align="left">Splines and Piecewise Interpolation</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">19</td>
+<td align="left">Numerical Integration Formulas</td>
+</tr>
+<tr class="odd">
+<td align="left">12</td>
+<td align="left">11/13</td>
+<td align="left">20</td>
+<td align="left">Numerical Integration of Functions</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">21</td>
+<td align="left">Numerical Differentiation</td>
+</tr>
+<tr class="odd">
+<td align="left">14</td>
+<td align="left">11/20</td>
+<td align="left"></td>
+<td align="left">Thanksgiving break</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">Thanksgiving break</td>
+</tr>
+<tr class="odd">
+<td align="left">15</td>
+<td align="left">11/28</td>
+<td align="left">22</td>
+<td align="left">ODEs: Initial value problem</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">23</td>
+<td align="left">ODEs: Adaptive methods and stiff systems</td>
+</tr>
+<tr class="odd">
+<td align="left">16</td>
+<td align="left">12/4</td>
+<td align="left">24</td>
+<td align="left">ODEs: Boundary value problems</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">Wrap up and final project discussions</td>
+</tr>
+<tr class="odd">
+<td align="left">17</td>
+<td align="left">12/11</td>
+<td align="left">Finals</td>
+<td align="left">Finals Best of Lucks!</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

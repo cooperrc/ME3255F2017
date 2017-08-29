@@ -1,7 +1,7 @@
 # Computational Mechanics
 ## ME 3255 Spring 2017
-### Public (ipynb rendering)[https://github.com/cooperrc/ME3255F2017]
-### Github page: [https://github.uconn.edu/rcc02007/ME3255F2017.git]
+### Public (ipynb rendering) [https://github.com/cooperrc/ME3255F2017](https://github.com/cooperrc/ME3255F2017)
+### Github page: [https://github.uconn.edu/rcc02007/ME3255F2017.git](https://github.uconn.edu/rcc02007/ME3255F2017.git)
 
 ### Course Description
 This course introduces students to scientific programming utilizing Matlab/Octave.
@@ -17,6 +17,7 @@ matlab/octave functions and programming best practices.
 
 
 **Lectures**: 
+
 - 001 MoWeFr 10:10-11:00 am, Philip E. Austin bdg (Aust) rm 434
 
 - 002 TuTh 12:30-1:45 PM, Charles Lewis Beach Hall (BCH) rm 317
@@ -53,7 +54,7 @@ Jupyter notebook (with matlab or octave kernel)
 
 The Homeworks are graded based upon effort, correctness, and completeness. The forms and
 video-quizzes are graded based upon completion, if they are completed you get credit. It
-is *your* responsibility to make sure your answers are correct. Use the homeworks and
+is *your* responsibility to make sure your answers are correct. Use the homeworks, videos, and
 forms as a study guide for the midterm and final project. In general, I will not post
 homework solutions, but I will review solutions in class.
 
