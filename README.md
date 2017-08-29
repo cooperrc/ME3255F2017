@@ -1,5 +1,5 @@
 # Computational Mechanics
-## ME 3255 Spring 2017
+## ME 3255 Fall 2017
 ### Public (ipynb rendering) [https://github.com/cooperrc/ME3255F2017](https://github.com/cooperrc/ME3255F2017)
 ### Github page: [https://github.uconn.edu/rcc02007/ME3255F2017.git](https://github.uconn.edu/rcc02007/ME3255F2017.git)
 
