@@ -6,9 +6,9 @@
     a. Sign into your UConn github account via
     [github.uconn.edu](https://github.uconn.edu/). 
 
-![Step 1](g1.jpg)
+![Step 1](./images/g1.jpg)
 
-![Step 2](g2.jpg)
+![Step 2](./images/g2.jpg)
 
 
     b. Go to
@@ -26,36 +26,36 @@
 
         i. Click the +-sign and choose 'New repository'
         
-  ![Step 3](g3.jpg)\
+  ![Step 3](./images/g3.jpg)\
 
         ii. In the 'Repository name' enter '01_ME3255_repo'. Add a description. Make it
         private. Then check the box 'Initialize this repository with a README'. 
 
-  ![Step 4](g4.jpg)\
+  ![Step 4](./images/g4.jpg)\
 
         iii. Now you are in your repo. Click on the README.md file and then click the
         pencil to edit it. 
 
-  ![Step 5](g5.jpg)\
+  ![Step 5](./images/g5.jpg)\
 
         iv. Add a header with a `#` and type `# Answer to Homework Question`. Under this
         line answer this question: What do you hope to learn this semester?
 
-  ![Step 6](g6.jpg)\
+  ![Step 6](./images/g6.jpg)\
 
         v. At bottom of page, click 'Commit changes'.
 
-  ![Step 7](g7.jpg)\
+  ![Step 7](./images/g7.jpg)\
 
         vi. Verify that your README.md file has been updated. Then copy the HTTPS clone
         URL on the right of the page. 
 
-  ![Step 8](g8.jpg)\
+  ![Step 8](./images/g8.jpg)\
 
         vii. Paste this into the Homework #1 Google form reponse.
         [https://goo.gl/forms/b3YrBuFxZaXTYV5s1](https://goo.gl/forms/b3YrBuFxZaXTYV5s1)
 
-  ![Step 9](g9.jpg)\
+  ![Step 9](./images/g9.jpg)\
 
         viii. Click on the gear for "Settings" then "Collaborators" on the left menu. Add
         `rcc02007` (Ryan C. Cooper) and `zhs15101` (Zhiqiang Shen) as a collaborators. 
