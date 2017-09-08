@@ -64,7 +64,7 @@
 of the two indices from 1 to 6 e.g. A_66(3,2)=6 and A_66(4,4)=16. Calculate the mean and
 standard deviation of the values in A_66. 
 
-3. Copy the data in
+4. Copy the data in
 [US_energy_by_sector.csv](https://github.uconn.edu/rcc02007/ME3255F2017/blob/master/03_Intro%20to%20matlab-octave/US_energy_by_sector.csv)
 to a file in you working directory in Matlab/Octave. Add these two plots to your
 01_ME3255_repo with a heading of `#Problem 4`
@@ -78,7 +78,7 @@ to a file in you working directory in Matlab/Octave. Add these two plots to your
     of Btu's (1 quintillion = 10$^6$ trillion). The cumulative energy is the area under
     the curve in part a from 1949 to a given year. 
 
-3. In this part, you will modify the function presented in lecture `freefall.m`. In
+5. In this part, you will modify the function presented in lecture `freefall.m`. In
 lecture, the function required an input of `N` to divide the 12 second solution into
 N-steps. Here, modify the input so that you can specify two inputs, step size-`h`, and
 timespan-`timespan`. 
@@ -92,7 +92,7 @@ timespan-`timespan`.
     c. Save your work to a folder called 'problem_3' and add it to the '01_ME3255_repo'
     repository
 
-4. In this part we will create functions that calculate velocity and acceleration in 3D
+6. In this part we will create functions that calculate velocity and acceleration in 3D
 based upon x,y,z-coordinates and time. 
 
     a. Create a function that takes four vectors as input, x,y,z,t,(where x,y,z are
