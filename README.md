@@ -18,9 +18,9 @@ matlab/octave functions and programming best practices.
 
 **Lectures**: 
 
-- 001 MoWeFr 10:10-11:00 am, Philip E. Austin bdg (Aust) rm 434
+- 001 MoWeFr 10:10-11:00 am, Engr II room 202 ~~Philip E. Austin bdg (Aust) rm 434~~
 
-- 002 TuTh 12:30-1:45 PM, Charles Lewis Beach Hall (BCH) rm 317
+- 002 TuTh 12:30-1:45 PM, Engr II room 202 ~~Charles Lewis Beach Hall (BCH) rm 317~~
 
 **Instructor**: Prof. Ryan C. Cooper (ryan.c.cooper@uconn.edu)
 
