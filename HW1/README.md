@@ -3,28 +3,27 @@
 
 1. The first assignment is to fork the course syllabus and assignment. 
 
-    a. Sign into your UConn github account via
-    [github.uconn.edu](https://github.uconn.edu/). 
+a. Sign into your UConn github account via
+[github.uconn.edu](https://github.uconn.edu/). 
 
 ![Step 1](./images/g1.jpg)
 
 ![Step 2](./images/g2.jpg)
 
 
-    b. Go to
-    [https://github.uconn.edu/rcc02007/ME3255S2017.git](https://github.uconn.edu/rcc02007/ME3255S2017.git)
-    and watch the repository. 
+b. Go to
+[https://github.uconn.edu/rcc02007/ME3255F2017.git](https://github.uconn.edu/rcc02007/ME3255F2017.git) and watch the repository. 
 
     c. Fork the repository to create your own version of the syllabus and assignments. 
 
 2. The next assignment is to create your own repository named '01_ME3255_repo'.
     
-    a. (if you signed out) Sign into your UConn github account via
-    [github.uconn.edu](https://github.uconn.edu/). 
+a. (if you signed out) Sign into your UConn github account via
+[github.uconn.edu](https://github.uconn.edu/). 
 
-    b. Follow these steps to create your own repository named `01_ME3255_repo`:
+b. Follow these steps to create your own repository named `01_ME3255_repo`:
 
-        i. Click the +-sign and choose 'New repository'
+    i. Click the +-sign and choose 'New repository'
         
   ![Step 3](./images/g3.jpg)\
 
@@ -93,13 +92,14 @@ timespan-`timespan`.
     repository
 
 6. In this part we will create functions that calculate velocity and acceleration in 3D
-based upon x,y,z-coordinates and time. 
+based upon x,y,z-coordinates and time. (hint: look at [Lecture 04_intro to
+m-files](https://github.com/cooperrc/ME3255F2017/tree/master/04_intro%20to%20m-files)
 
-    a. Create a function that takes four vectors as input, x,y,z,t,(where x,y,z are
-    coordinate positions in meters) and its output are three vectors [vx,vy,vz] which are
-    velocity components in m/s.
+  a. Create a function that takes four vectors as input, x,y,z,t,(where x,y,z are
+  coordinate positions in meters) and its output are three vectors [vx,vy,vz] which are
+  velocity components in m/s.
 
 
-    b. Create a function that takes four vectors as input, x,y,z,t,(where x,y,z are
-    coordinate positions in meters) and its output are three aectors [ax,ay,az] which are
-    acceleration components in m/s$^2$.
+  b. Create a function that takes four vectors as input, x,y,z,t,(where x,y,z are
+  coordinate positions in meters) and its output are three aectors [ax,ay,az] which are
+  acceleration components in m/s$^2$.
