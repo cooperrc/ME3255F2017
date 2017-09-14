@@ -1,7 +1,7 @@
 # Homework #1
 ## due 9/15/17
 
-*1\.* The first assignment is to fork the course syllabus and assignment. 
+**1\.** The first assignment is to fork the course syllabus and assignment. 
 
 a. Sign into your UConn github account via
 [github.uconn.edu](https://github.uconn.edu/). 
@@ -16,7 +16,7 @@ b. Go to
 
     c. Fork the repository to create your own version of the syllabus and assignments. 
 
-*2\.* The next assignment is to create your own repository named '01_ME3255_repo'.
+**2\.** The next assignment is to create your own repository named '01_ME3255_repo'.
     
 a. (if you signed out) Sign into your UConn github account via
 [github.uconn.edu](https://github.uconn.edu/). 
@@ -59,11 +59,11 @@ b. Follow these steps to create your own repository named `01_ME3255_repo`:
         viii. Click on the gear for "Settings" then "Collaborators" on the left menu. Add
         `rcc02007` (Ryan C. Cooper) and `zhs15101` (Zhiqiang Shen) as a collaborators. 
 
-*3\.* Use a script to create a variable called `A_66`, where every element is the product
+**3\.** Use a script to create a variable called `A_66`, where every element is the product
 of the two indices from 1 to 6 e.g. A_66(3,2)=6 and A_66(4,4)=16. Calculate the mean and
 standard deviation of the values in A_66. 
 
-*4\.* Copy the data in
+**4\.** Copy the data in
 [US_energy_by_sector.csv](https://github.uconn.edu/rcc02007/ME3255F2017/blob/master/03_Intro%20to%20matlab-octave/US_energy_by_sector.csv)
 to a file in you working directory in Matlab/Octave. Add these two plots to your
 01_ME3255_repo with a heading of `#Problem 4`
@@ -77,7 +77,7 @@ to a file in you working directory in Matlab/Octave. Add these two plots to your
     of Btu's (1 quintillion = 10$^6$ trillion). The cumulative energy is the area under
     the curve in part a from 1949 to a given year. 
 
-*5\.* In this part, you will modify the function presented in lecture `freefall.m`. In
+**5\.** In this part, you will modify the function presented in lecture `freefall.m`. In
 lecture, the function required an input of `N` to divide the 12 second solution into
 N-steps. Here, modify the input so that you can specify two inputs, step size-`h`, and
 timespan-`timespan`. 
@@ -91,7 +91,7 @@ timespan-`timespan`.
     c. Save your work to a folder called 'problem_3' and add it to the '01_ME3255_repo'
     repository
 
-*6\.* In this part we will create functions that calculate velocity and acceleration in 3D
+**6\.** In this part we will create functions that calculate velocity and acceleration in 3D
 based upon x,y,z-coordinates and time. (hint: look at [Lecture 04_intro to
 m-files](https://github.com/cooperrc/ME3255F2017/tree/master/04_intro%20to%20m-files)
 
