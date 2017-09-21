@@ -14,6 +14,8 @@
 cable is 30 m above the ground, but 30 m away is a tree that is 35 m tall. Another
 engineer informs you that this is a catenary cable problem with the following solution
 
+  ![eq. 1](./equations/eq1.png)
+  
   $y(x)=\frac{T}{w}\cosh\left(\frac{w}{T}x\right)+y_{0}-\frac{T}{w}$.
 
   where y(x) is the height of the cable at a distance, x, from the lowest point, $y_{0}$,
@@ -37,7 +39,7 @@ engineer informs you that this is a catenary cable problem with the following so
 
 
   c. Add a figure to your README that plots the final shape of the powerline
-  ($y(x)~vs.~x$) from x=-10 to 50 m. 
+  (![eq2](./equations/eq2.png)) from x=-10 to 50 m. 
 
 **3\.** The Newton-Raphson method and the modified secant method do not always converge to a
 solution. One simple example is the function f(x) = (x-1)*exp(-(x-1)^2). The root is at 1, but
@@ -71,29 +73,35 @@ guesses that do not converge.
 the gold atoms are aligned in a one dimensional network and the potential energy is
 described by the Lennard-Jones potential as such
   
+  ![eq3](./equations/eq3.png)
+
   $E_{LJ}(x)=4\epsilon
   \left(\left(\frac{\sigma}{x}\right)^{12}-\left(\frac{\sigma}{x}\right)^{6}\right)$.
 
   Where x is the distance between atoms in nm, $\epsilon$=2.71E-4 aJ, and $\sigma$=0.2934
   nm. The energy term that must be minimized is 
 
+  ![eq4](./equations/eq4.png)
+
   $E_{total}(\Delta x)=E_{LJ}(x_{0}+\Delta x)-F\Delta x$.
 
-  Where $x_{0}$ is the distance between atoms with no force applied and $\Delta x$ is the
+  Where ![x0](./equations/x0.png) is the distance between atoms with no force applied and
+  ![dx](./equations/deltax.png) is the
   amount each gold atom has moved under a given force, F.
 
-  a. Determine $x_{0}$ when F=0 nN using the golden ratio and parabolic methods. *Show
+  a. Determine ![x0](./equations/x0.png) when F=0 nN using the golden ratio and parabolic methods. *Show
   your script and output in your README and include your functions*
 
-  b. Solve for $\Delta x$ for F=0 to 0.0022 nN with 30 steps. *Use the golden ratio
+  b. Solve for ![dx](./equations/deltax.png) is the
+  amount each gold atom has mov for F=0 to 0.0022 nN with 30 steps. *Use the golden ratio
   solver or the matlab/octave `fminsearch`
 
   c. create a sum of squares error function `sse_of_parabola.m` that calculates the sum of
   squares error between a function $F(x)=K_{1}\Delta x+1/2K_{2}\Delta x^{2}$ and the
-  Forces used in part B for each $\Delta x$. 
+  Forces used in part B for each ![dx](./equations/deltax.png). 
 
-  d. Use the `fminsearch` matlab/octave function to determine $K_{1}$ and $K_{2}$. 
+  d. Use the `fminsearch` matlab/octave function to determine
+  ![k1k2](./equations/k1k2.png). 
 
-  e. Plot the force vs calculated $\Delta x$ and the best-fit parabola using $K_{1}$ and
-  $K_{2}$ in part d. 
+  e. Plot the force vs calculated ![dx](./equations/deltax.png) and the best-fit parabola using ![k1k2](./equations/k1k2.png) in part d. 
 
