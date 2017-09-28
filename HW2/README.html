@@ -65,11 +65,11 @@
 <p class="caption">eq4</p>
 </div>
 <p><span class="math inline">\(E_{total}(\Delta x)=E_{LJ}(x_{0}+\Delta x)-F\Delta x\)</span>.</p>
-<p>Where <span class="math inline">\(x_{0}\)</span> is the distance between atoms with no force applied and <img src="./equations/deltax.png" alt="dx" /> is the amount each gold atom has moved under a given force, F.</p>
+<p>Where <img src="./equations/x0.png" alt="x0" /> is the distance between atoms with no force applied and <img src="./equations/deltax.png" alt="dx" /> is the amount each gold atom has moved under a given force, F.</p>
 <ol style="list-style-type: lower-alpha">
 <li><p>Determine <img src="./equations/x0.png" alt="x0" /> when F=0 nN using the golden ratio and parabolic methods. <em>Show your script and output in your README and include your functions</em></p></li>
 <li><p>Solve for <img src="./equations/deltax.png" alt="dx" /> is the amount each gold atom has mov for F=0 to 0.0022 nN with 30 steps. *Use the golden ratio solver or the matlab/octave <code>fminsearch</code></p></li>
-<li><p>create a sum of squares error function <code>sse_of_parabola.m</code> that calculates the sum of squares error between a function <span class="math inline">\(F(x)=K_{1}\Delta x+1/2K_{2}\Delta x^{2}\)</span> and the Forces used in part B for each <img src="./equations/deltax.png" alt="dx" />.</p></li>
+<li><p>create a sum of squares error function <code>sse_of_parabola.m</code> that calculates the sum of squares error between a function <img src="./equations/fx.png" alt="F(x)" /> <span class="math inline">\(F(x)=K_{1}\Delta x+1/2K_{2}\Delta x^{2}\)</span> and the Forces used in part B for each <img src="./equations/deltax.png" alt="dx" />.</p></li>
 <li><p>Use the <code>fminsearch</code> matlab/octave function to determine <img src="./equations/k1k2.png" alt="k1k2" />.</p></li>
 <li><p>Plot the force vs calculated <img src="./equations/deltax.png" alt="dx" /> and the best-fit parabola using <img src="./equations/k1k2.png" alt="k1k2" /> in part d.</p></li>
 </ol>

@@ -97,7 +97,7 @@ described by the Lennard-Jones potential as such
   solver or the matlab/octave `fminsearch`
 
   c. create a sum of squares error function `sse_of_parabola.m` that calculates the sum of
-  squares error between a function $F(x)=K_{1}\Delta x+1/2K_{2}\Delta x^{2}$ and the
+  squares error between a function ![F(x)](./equations/fx.png) $F(x)=K_{1}\Delta x+1/2K_{2}\Delta x^{2}$ and the
   Forces used in part B for each ![dx](./equations/deltax.png). 
 
   d. Use the `fminsearch` matlab/octave function to determine
