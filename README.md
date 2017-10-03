@@ -37,7 +37,8 @@ matlab/octave functions and programming best practices.
 Scientists* 3rd edition. 
 
 **Tools used:** [Matlab](https://www.mathworks.com/products/matlab.html), 
-[Octave](https://www.gnu.org/software/octave/) , [Github](https://github.com). 
+[Octave](https://www.gnu.org/software/octave/) , [Github](https://github.uconn.edu), [Github
+Desktop](https://help.github.com/desktop/guides/). 
 
 **Recommended tools:** Github Desktop, git, Atom (text editor), Vim (text editor), 
 Jupyter notebook (with matlab or octave kernel) 
