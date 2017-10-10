@@ -1,5 +1,5 @@
 # Homework #3
-## Hand calculations
+## Hand calculations due 10/18 by 11:59 pm
 
 The following problems should be worked out by hand. You can check your work with
 Matlab/Octave. Upload a pdf of the completed calculations into a github repository called
