@@ -4,7 +4,7 @@
 The following problems should be worked out by hand. You can check your work with
 Matlab/Octave. Upload a pdf of the completed calculations into a github repository called
 '03_review_1-10'. Then, submit your repo link to
-(https://goo.gl/forms/h6OMBURAZ6bJB2xG2)[https://goo.gl/forms/h6OMBURAZ6bJB2xG2]
+[https://goo.gl/forms/h6OMBURAZ6bJB2xG2](https://goo.gl/forms/h6OMBURAZ6bJB2xG2)
 
 1. Use the Newton-Raphson method to approximate when f(x)=0. Start with an initial guess
 of $x_{0}=0$. 
