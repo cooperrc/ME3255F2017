@@ -15,7 +15,10 @@
    id="svg7576"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="mass_springs.svg">
+   sodipodi:docname="mass_springs.svg"
+   inkscape:export-filename="/home/ryan/me3255git/HW4/mass_springs.png"
+   inkscape:export-xdpi="120"
+   inkscape:export-ydpi="120">
   <defs
      id="defs7578" />
   <sodipodi:namedview
@@ -32,10 +35,10 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      units="in"
-     inkscape:window-width="2560"
-     inkscape:window-height="1380"
-     inkscape:window-x="1920"
-     inkscape:window-y="27"
+     inkscape:window-width="1920"
+     inkscape:window-height="1047"
+     inkscape:window-x="0"
+     inkscape:window-y="360"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7581">
