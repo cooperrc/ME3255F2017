@@ -1,8 +1,10 @@
 # Homework #4
-## due 11/2/17 by 11:59pm
+## final commit due 11/2/17 by 11:59pm
 
 *Include all work as either an m-file script, m-file function, or example code included
 with \`\`\` and document your code in the README.md file*
+
+### P1-2 Due 10/26
 
 1. Create a new github repository called '04_linear_algebra'. 
 
@@ -10,9 +12,10 @@ with \`\`\` and document your code in the README.md file*
 
     b. Clone the repository to your computer.
 
-    c. Complete this before 10/26 by midnight
+    c. Submit clone repo link to
+    [https://goo.gl/forms/gFNxhNM4qJJKj8hE3](https://goo.gl/forms/gFNxhNM4qJJKj8hE3)
 
-2. Create the  4x4 and 5x5 Hilbert matrix as H. Include the following results in your
+2. Create the  4x4 and 5x5 [Hilbert matrix](https://en.wikipedia.org/wiki/Hilbert_matrix) as H. Include the following results in your
 README before 10/26 by midnight:
 
   a. What are the 2-norm, frobenius-norm, 0-norm and infinity-norm of the 4x4 and 5x5
@@ -24,21 +27,22 @@ README before 10/26 by midnight:
   c. What are the condition numbers for the 2-norm, frobenius-norm, 0-norm and
   infinity-norm of the 4x4 and 5x5 Hilbert matrices?
 
-3. Create an LU-decomposition function called `lu_tridiag.m` that takes 3 vectors as inputs
-and calculates the LU-decomposition of a tridiagonal matrix. The output should be 3
-vectors, the diagonal of the Upper matrix, and the two off-diagonal vectors of the Lower
-and Upper matrices. 
+### P3-4 Due 10/30
 
-    ```[ud,uo,lo]=lu_tridiag(e,f,g);```
+3. Create a Cholesky factorization function called `chol_tridiag.m` that takes 2 vectors
+as inputs and calculates the Cholseky factorization of a tridiagonal matrix. The output
+should be 2 vectors, the diagonal and the off-diagonal vector of the Cholesky matrix. 
 
-4. Use the output from `lu_tridiag.m` to create a forward substitution and
+    ```[d,u]=chol_tridiag(e,f);```
+
+4. Use the output from `chol_tridiag.m` to create a forward substitution and
 back-substitution function called `solve_tridiag.m` that provides the solution of
-Ax=b given the vectors from the output of [ud,uo,lo]=lu_tridiag(e,f,g). *Note: do not use
+Ax=b given the vectors from the output of [d,u]=lu_tridiag(e,f). *Note: do not use
 the backslash solver `\`, create an algebraic solution*
 
-    ```x=solve_tridiag(ud,uo,lo,b);```
+    ```x=solve_tridiag(d,u,b);```
 
-![Spring-mass system for problem 5](mass_springs.png)
+![Spring-mass system for problem 5](./figures/mass_springs.png)
 
 5. Create the stiffness matrix for the 4-mass system shown above
 for cases a-c. Calculate the condition of the stiffness matrices. What is the expected error
@@ -50,10 +54,10 @@ when calculating the displacements of the 4 masses? Include the analysis and res
 
   c. K1=K3=K4=1000 N/m, K2=1000e-12 N/m
 
-6. Use `lu_tridiag.m` and `solve_tridiag.m` to solve for the displacements of hanging
-  masses 1-4 shown above, if all masses are 1 kg.
+6. Use `chol_tridiag.m` and `solve_tridiag.m` to solve for the displacements of hanging
+  masses 1-4 shown above in 5a-c, if all masses are 1 kg.
 
-![Spring-mass system for analysis](spring_mass.png)
+![Spring-mass system for analysis](./figures/spring_mass.png)
 
 7. In the system shown above, determine the three differential equations for the position
 of masses 1, 2, and 3. Solve for the vibrational modes of the spring-mass system if k1=10
