@@ -18,10 +18,10 @@ with \`\`\` and document your code in the README.md file*
 2. Create the  4x4 and 5x5 [Hilbert matrix](https://en.wikipedia.org/wiki/Hilbert_matrix) as H. Include the following results in your
 README before 10/26 by midnight:
 
-  a. What are the 2-norm, frobenius-norm, 0-norm and infinity-norm of the 4x4 and 5x5
+  a. What are the 2-norm, frobenius-norm, 1-norm and infinity-norm of the 4x4 and 5x5
   Hilbert matrices?
 
-  b. What are the 2-norm, frobenius-norm, 0-norm and infinity-norm of the 4x4 and 5x5
+  b. What are the 2-norm, frobenius-norm, 1-norm and infinity-norm of the 4x4 and 5x5
   inverse Hilbert matrices?
 
   c. What are the condition numbers for the 2-norm, frobenius-norm, 0-norm and
