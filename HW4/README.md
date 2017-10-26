@@ -24,7 +24,7 @@ README before 10/26 by midnight:
   b. What are the 2-norm, frobenius-norm, 1-norm and infinity-norm of the 4x4 and 5x5
   inverse Hilbert matrices?
 
-  c. What are the condition numbers for the 2-norm, frobenius-norm, 0-norm and
+  c. What are the condition numbers for the 2-norm, frobenius-norm, 1-norm and
   infinity-norm of the 4x4 and 5x5 Hilbert matrices?
 
 ### P3-4 Due 10/30
