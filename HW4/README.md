@@ -33,14 +33,18 @@ README before 10/26 by midnight:
 as inputs and calculates the Cholseky factorization of a tridiagonal matrix. The output
 should be 2 vectors, the diagonal and the off-diagonal vector of the Cholesky matrix. 
 
-```[d,u]=chol_tridiag(e,f);```
+```matlab
+[d,u]=chol_tridiag(e,f);
+```
 
 **4\.** Use the output from `chol_tridiag.m` to create a forward substitution and
 back-substitution function called `solve_tridiag.m` that provides the solution of
 Ax=b given the vectors from the output of [d,u]=lu_tridiag(e,f). *Note: do not use
 the backslash solver `\`, create an algebraic solution*
 
-```x=solve_tridiag(d,u,b);```
+```matlab
+x=solve_tridiag(d,u,b);
+```
 
 ![Spring-mass system for problem 5](./figures/mass_springs.png)
 
