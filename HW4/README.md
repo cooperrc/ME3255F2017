@@ -8,12 +8,11 @@ with \`\`\` and document your code in the README.md file*
 
 **1\.** Create a new github repository called '04_linear_algebra'. 
 
-    a. Add rcc02007 and zhs15101 as collaborators.
+a. Add rcc02007 and zhs15101 as collaborators.
 
-    b. Clone the repository to your computer.
+b. Clone the repository to your computer.
 
-    c. Submit clone repo link to
-    [https://goo.gl/forms/gFNxhNM4qJJKj8hE3](https://goo.gl/forms/gFNxhNM4qJJKj8hE3)
+c. Submit clone repo link to [https://goo.gl/forms/gFNxhNM4qJJKj8hE3](https://goo.gl/forms/gFNxhNM4qJJKj8hE3)
 
 **2\.** Create the  4x4 and 5x5 [Hilbert matrix](https://en.wikipedia.org/wiki/Hilbert_matrix) as H. Include the following results in your
 README before 10/26 by midnight:
