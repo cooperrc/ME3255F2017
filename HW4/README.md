@@ -15,7 +15,7 @@ with \`\`\` and document your code in the README.md file*
     c. Submit clone repo link to
     [https://goo.gl/forms/gFNxhNM4qJJKj8hE3](https://goo.gl/forms/gFNxhNM4qJJKj8hE3)
 
-2. Create the  4x4 and 5x5 [Hilbert matrix](https://en.wikipedia.org/wiki/Hilbert_matrix) as H. Include the following results in your
+**2\.** Create the  4x4 and 5x5 [Hilbert matrix](https://en.wikipedia.org/wiki/Hilbert_matrix) as H. Include the following results in your
 README before 10/26 by midnight:
 
   a. What are the 2-norm, frobenius-norm, 1-norm and infinity-norm of the 4x4 and 5x5
@@ -29,22 +29,22 @@ README before 10/26 by midnight:
 
 ### P3-4 Due 10/30
 
-3. Create a Cholesky factorization function called `chol_tridiag.m` that takes 2 vectors
+**3\.** Create a Cholesky factorization function called `chol_tridiag.m` that takes 2 vectors
 as inputs and calculates the Cholseky factorization of a tridiagonal matrix. The output
 should be 2 vectors, the diagonal and the off-diagonal vector of the Cholesky matrix. 
 
-    ```[d,u]=chol_tridiag(e,f);```
+  ```[d,u]=chol_tridiag(e,f);```
 
-4. Use the output from `chol_tridiag.m` to create a forward substitution and
+**4\.** Use the output from `chol_tridiag.m` to create a forward substitution and
 back-substitution function called `solve_tridiag.m` that provides the solution of
 Ax=b given the vectors from the output of [d,u]=lu_tridiag(e,f). *Note: do not use
 the backslash solver `\`, create an algebraic solution*
 
-    ```x=solve_tridiag(d,u,b);```
+  ```x=solve_tridiag(d,u,b);```
 
 ![Spring-mass system for problem 5](./figures/mass_springs.png)
 
-5. Create the stiffness matrix for the 4-mass system shown above
+**5\.** Create the stiffness matrix for the 4-mass system shown above
 for cases a-c. Calculate the condition of the stiffness matrices. What is the expected error
 when calculating the displacements of the 4 masses? Include the analysis and results in your README.
 
@@ -54,18 +54,18 @@ when calculating the displacements of the 4 masses? Include the analysis and res
 
   c. K1=K3=K4=1000 N/m, K2=1000e-12 N/m
 
-6. Use `chol_tridiag.m` and `solve_tridiag.m` to solve for the displacements of hanging
+**6\.** Use `chol_tridiag.m` and `solve_tridiag.m` to solve for the displacements of hanging
   masses 1-4 shown above in 5a-c, if all masses are 1 kg.
 
 ![Spring-mass system for analysis](./figures/spring_mass.png)
 
-7. In the system shown above, determine the three differential equations for the position
+**7\.** In the system shown above, determine the three differential equations for the position
 of masses 1, 2, and 3. Solve for the vibrational modes of the spring-mass system if k1=10
 N/m, k2=k3=20 N/m, and k4=10 N/m. The masses are m1=1 kg, m2=2 kg and m3=4 kg. Create a
 function, `mass_spring_vibrate.m` that outputs the vibration modes and natural frequencies based upon the
 parameters, k1, k2, k3, and k4.  
 
-8. The curvature of a slender column subject to an axial load P can be
+**8\.** The curvature of a slender column subject to an axial load P can be
 modeled by 
 
 
