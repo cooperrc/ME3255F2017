@@ -6,7 +6,7 @@ with \`\`\` and document your code in the README.md file*
 
 ### P1-2 Due 10/26
 
-1. Create a new github repository called '04_linear_algebra'. 
+**1\.** Create a new github repository called '04_linear_algebra'. 
 
     a. Add rcc02007 and zhs15101 as collaborators.
 
