@@ -83,16 +83,16 @@ homework solutions, but I will review solutions in class.
 |   ||6|Root Finding con’d|      
 |5|9/25|7| Optimization |
 |   ||8|Linear Algebra|
-|6|10/23|9|Linear systems: Gauss elimination|
+|6|10/2|9|Linear systems: Gauss elimination|
 |   ||10|Linear Systems: LU factorization|
-|7|10/9|11|Linear Systems: Error analysis|
-|   ||12|Eigenvalues|
+|7|10/9|10|Linear Systems: Cholesky factorization|
+|   ||1-10| Review|
 |8|10/16|1-10 |Midterm Review|
 |   ||1-10|Midterm|
-|9|10/23|12|Linear Systems: Iterative methods|
-|   ||14|Curve fitting: linear regression|
-|10|10/30|15|Curve fitting: least squares and nonlinear regression|
-|   ||17|Polynomial interpolation|
+|9|10/23|12|Eigenvalues|
+|   ||11|Linear Systems: Error analysis|
+|10|10/30|14|Statistics and Monte Carlo models|
+|   ||15|Curve fitting: least squares and nonlinear regression|
 |11|11/6|18|Splines and Piecewise Interpolation|
 |   ||19|Numerical Integration Formulas|
 |12|11/13|20|Numerical Integration of Functions|
