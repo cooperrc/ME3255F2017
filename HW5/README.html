@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+  </style>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+<h1 id="homework-5">Homework #5</h1>
+<h2 id="due-414-by-1159pm">due 4/14 by 11:59pm</h2>
+<p><strong>1.</strong> Create a new github repository called ‘05_curve_fitting’.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Add rcc02007 and zhs15101 as collaborators.</p></li>
+<li><p>Clone the repository to your computer.</p></li>
+</ol>
+<p><strong>2.</strong> Create a least-squares function called <code>least_squares.m</code> that accepts a Z-matrix and dependent variable y as input and returns the vector of best-fit constants, a, the best-fit function evaluated at each point <span class="math inline">\(f(x_{i})\)</span>, and the coefficient of determination, r2.</p>
+<div class="sourceCode"><pre class="sourceCode matlab"><code class="sourceCode matlab">[a,fx,r2]=least_squares(Z,y);</code></pre></div>
+<p>Test your function on the sets of data in script <code>problem_2_data.m</code> and show that the following functions are the best fit lines. Report the coefficient of determination in your README.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>y=0.3745+0.98644x+0.84564/x</p></li>
+<li><p>y= 22.47-1.36x+0.28x^2</p></li>
+<li><p>y=4.0046e<sup>(-1.5x)+2.9213e</sup>(-0.3x)+1.5647e^(-0.05x)</p></li>
+<li><p>y=0.99sin(t)+0.5sin(3t)</p></li>
+</ol>
+<p><strong>3.</strong> Load the data from the <a href="https://github.com/cooperrc/stats_and_linear_regression/blob/master/compiled_data.csv">class dart experiment</a>. Show your work in a script with filename <code>dart_statistics.m</code> in your repository.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Which user (0-32) was the most accurate dart thrower e.g. mean(x)+mean(y) was closest to 0 cm?</p></li>
+<li><p>Which user (0-32) was the most precise dart thrower e.g. std(x)+std(y) was closest to 0 cm?</p></li>
+</ol>
+<p><strong>4.</strong> 100 steel rods are going to be used to support a 1000 kg structure. The rods will buckle when the load in any rod exceeds the <a href="https://en.wikipedia.org/wiki/Euler%27s_critical_load">critical buckling load</a></p>
+<p><span class="math inline">\(P_{cr}=\frac{\pi^3 Er^4}{16L^2}\)</span> <img src="./equations/buckle.png" alt="buckle" /></p>
+<p>where E=200e9 Pa, r=0.01 m +/-0.001 m, and L is the length of the rod which can only be controlled to 1% tolerance. Create a Monte Carlo model <code>buckle_monte_carlo.m</code> that predicts the mean and standard deviation of the buckling load for 100 samples with normally distributed dimensions r and L.</p>
+<p><code>[mean_buckle_load,std_buckle_load]=buckle_monte_carlo(E,r_mean,r_std,L_mean,L_std)</code></p>
+<ol style="list-style-type: lower-alpha">
+<li><p>What is the mean_buckle_load and std_buckle_load for L=5 m?</p></li>
+<li><p>What length, L, should the beams be so that only 2.5% will reach the critical buckling load?</p></li>
+</ol>
+<p><strong>5.</strong> The drag coefficient for spheres such as sporting balls is known to vary as a function of the Reynolds number Re, a dimensionless number that gives a measure of the ratio of inertial forces to viscous forces:</p>
+<p><span class="math inline">\(Re = \frac{\rho V D}{\mu}\)</span> <img src="./equations/reynolds.png" alt="Reynolds" /></p>
+<p>where ρ= the fluid’s density (kg/m3), V= its velocity (m/s), D= diameter (m), and μ= dynamic viscosity (N⋅s/m2). The following table provides values for a smooth spherical ball:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Re (x1e-4)</th>
+<th align="left">C_D</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">2</td>
+<td align="left">0.52</td>
+</tr>
+<tr class="even">
+<td align="left">5.8</td>
+<td align="left">0.52</td>
+</tr>
+<tr class="odd">
+<td align="left">16.8</td>
+<td align="left">0.52</td>
+</tr>
+<tr class="even">
+<td align="left">27.2</td>
+<td align="left">0.5</td>
+</tr>
+<tr class="odd">
+<td align="left">29.9</td>
+<td align="left">0.49</td>
+</tr>
+<tr class="even">
+<td align="left">33.9</td>
+<td align="left">0.44</td>
+</tr>
+<tr class="odd">
+<td align="left">36.3</td>
+<td align="left">0.18</td>
+</tr>
+<tr class="even">
+<td align="left">40</td>
+<td align="left">0.074</td>
+</tr>
+<tr class="odd">
+<td align="left">46</td>
+<td align="left">0.067</td>
+</tr>
+<tr class="even">
+<td align="left">60</td>
+<td align="left">0.08</td>
+</tr>
+<tr class="odd">
+<td align="left">100</td>
+<td align="left">0.12</td>
+</tr>
+<tr class="even">
+<td align="left">200</td>
+<td align="left">0.16</td>
+</tr>
+<tr class="odd">
+<td align="left">400</td>
+<td align="left">0.19</td>
+</tr>
+</tbody>
+</table>
+<ol style="list-style-type: lower-alpha">
+<li>Create a function <code>sphere_drag.m</code> that outputs the drag coefficient based on the given table and an input Reynolds number using a spline interpolation of either linear (‘linear’), piecewise cubic (‘pchip’), or cubic (‘cubic’):</li>
+</ol>
+<p><code>[Cd_out]=sphere_drag(Re_in,spline_type)</code></p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>Use the following physical constants to plot the drag force vs velocity for a baseball: ρ= 1.3 kg/m3, V= 4 - 40 (m/s), D= 23.5 cm, and μ=1.78e-5 Pa-s. Plot all three interpolation methods on a single plot. Show the plot in your README.</li>
+</ol>
+<p><strong>6.</strong> Evaluate the integral of the following function:</p>
+<p><span class="math inline">\(\int_{2}^{3}f(x) = \int_{2}^{3} 1/6x^3 + 1/2x^2+x dx\)</span></p>
+<ol style="list-style-type: lower-alpha">
+<li><p>analytically</p></li>
+<li><p>with 1-point Gauss quadrature</p></li>
+<li><p>with 2-point Gauss quadrature</p></li>
+<li><p>with 3-point Gauss quadrature</p></li>
+<li><p>include the results in a table in your README</p></li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th align="left">method</th>
+<th align="left">value</th>
+<th align="left">error</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">analytical</td>
+<td align="left">…</td>
+<td align="left">0%</td>
+</tr>
+<tr class="even">
+<td align="left">1 Gauss point</td>
+<td align="left">…</td>
+<td align="left">..%</td>
+</tr>
+<tr class="odd">
+<td align="left">…</td>
+<td align="left">…</td>
+<td align="left">…</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
