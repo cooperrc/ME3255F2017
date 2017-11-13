@@ -27,22 +27,21 @@ columns with your netid on each row as such,
 
 **Nonlinear Regression - Logistic Regression**
 
-![logistic regression of Challenger O-ring failure](http://www.stat.ufl.edu/~winner/cases/challenger.ppt)
+[logistic regression of Challenger O-ring failure](http://www.stat.ufl.edu/~winner/cases/challenger.ppt)
 
 Use the Temperature and failure data from the Challenger O-rings 
 [challenger_oring.csv](./challenger_oring.csv). Your independent variable is temperature and your dependent
 variable is failure (1=fail, 0=pass). Create a function called `cost_logistic.m` that
 takes the vector `a`, and independent variable `x` and dependent variable `y`. Use the
-function, $\sigma(t)=\frac{1}{1+e^{-t}}$ where $t=a_{0}+a_{1}x$. Use the cost function,
+function, ![sigma](./equations/sigma.png) where ![t](./equations/t.png). Use the cost function,
 
-$J(a_{0},a_{1})=1/m\sum_{i=1}^{n}\left[-y_{i}\log(\sigma(t_{i}))-(1-y_{i})\log((1-\sigma(t_{i})))\right]$
+![cost](./equations/cost.png)
 
 and gradient
 
-$\frac{\partial J}{\partial a_{i}}=
-1/m\sum_{k=1}^{N}\left(\sigma(t_{k})-y_{k}\right)x_{k}^{i}$
+![costgrad](./equations/costgrad.png)
 
-where $x_{k}^{i} is the k-th value of temperature raised to the i-th power (0, and 1)
+where ![x](./equations/x.png) is the k-th value of temperature raised to the i-th power (0, and 1)
 
 a. edit `cost_logistic.m` so that the output is `[J,grad]` or [cost, gradient]
 
