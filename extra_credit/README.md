@@ -41,7 +41,7 @@ and gradient
 
 ![costgrad](./equations/costgrad.png)
 
-where ![x](./equations/x.png) is the k-th value of temperature raised to the i-th power (0, and 1)
+where ![x](./equations/x.png) is the i-th value of temperature raised to the k-th power (0, and 1)
 
 a. edit `cost_logistic.m` so that the output is `[J,grad]` or [cost, gradient]
 
