@@ -88,7 +88,7 @@ following table provides values for a smooth spherical ball:
 a. Create a function `sphere_drag.m` that outputs the drag coefficient based on the given
 table and an input Reynolds number using a spline interpolation of either linear
 ('linear'),
-piecewise cubic ('pchip'), or cubic ('cubic'):
+piecewise cubic ('pchip'), or continuous cubic spline('spline'):
 
 `[Cd_out]=sphere_drag(Re_in,spline_type)`
 
@@ -98,7 +98,7 @@ interpolation methods on a single plot. Show the plot in your README.
 
 **6\.** Evaluate the integral of the following function:
 
-$\int_{2}^{3}f(x) = \int_{2}^{3} 1/6x^3 + 1/2x^2+x dx$
+![fx](./equations/fx.png)
 
 a. analytically
 
