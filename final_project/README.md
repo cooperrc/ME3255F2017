@@ -37,7 +37,7 @@ the tension and deflection of a square membrane, as seen in figure 2.
 
 ![Figure 2. Square membrane design with sides of 10 um.](./figures/membrane.png)
 
-Figure 2. Square membrane design with sides of 10 um. 2A demonstrates the node and element
+*Figure 2*. Square membrane design with sides of 10 um. 2A demonstrates the node and element
 numbering for 9 interior nodes and 16 elements. 2B shows element 6 and its nodal
 displacments along with the aveerage displacement as the red point. 2C shows a
 cross-section of the force-balance for the square membrane window and 2D shows an
