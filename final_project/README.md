@@ -4,7 +4,7 @@
 [grading rubric](./rubric.md)
 
 ![Graphene membrane under
-pressure](http://appliedmechanics.asmedigitalcollection.asme.org/data/journals/jamcav/926983/jam_80_4_040905_f001.png)
+pressure](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiG_prg5c3XAhULSyYKHQJWCPAQjRwIBw&url=https%3A%2F%2Fwww.theverge.com%2F2016%2F11%2F24%2F13740946%2Fdutch-scientists-use-color-changing-graphene-bubbles-to-create-mechanical-pixels&psig=AOvVaw1kho8L-n3x-KizdpV1bWrJ&ust=1511289329303919)
 
 In this final project, you and your team mates will design a graphene pressure sensor.
 Graphene is a single-layer of carbon atoms arranged in a hexagonal lattice. Graphene films
