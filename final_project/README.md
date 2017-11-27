@@ -4,7 +4,7 @@
 [grading rubric](./rubric.md)
 
 ![Graphene membrane under
-pressure](http://appliedmechanics.asmedigitalcollection.asme.org/data/journals/jamcav/926983/jam_80_4_040905_f001.png)
+pressure](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiG_prg5c3XAhULSyYKHQJWCPAQjRwIBw&url=https%3A%2F%2Fwww.theverge.com%2F2016%2F11%2F24%2F13740946%2Fdutch-scientists-use-color-changing-graphene-bubbles-to-create-mechanical-pixels&psig=AOvVaw1kho8L-n3x-KizdpV1bWrJ&ust=1511289329303919)
 
 In this final project, you and your team mates will design a graphene pressure sensor.
 Graphene is a single-layer of carbon atoms arranged in a hexagonal lattice. Graphene films
@@ -37,7 +37,7 @@ the tension and deflection of a square membrane, as seen in figure 2.
 
 ![Figure 2. Square membrane design with sides of 10 um.](./figures/membrane.png)
 
-Figure 2. Square membrane design with sides of 10 um. 2A demonstrates the node and element
+*Figure 2*. Square membrane design with sides of 10 um. 2A demonstrates the node and element
 numbering for 9 interior nodes and 16 elements. 2B shows element 6 and its nodal
 displacments along with the aveerage displacement as the red point. 2C shows a
 cross-section of the force-balance for the square membrane window and 2D shows an
