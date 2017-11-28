@@ -15,6 +15,7 @@
 |	Nidadavolu,Chitra Amba	|	5	|
 |	Nugent,Julian	|	6	|
 |	Marshall,Lauren Elizabeth	|	6	|
+|	Murphy,Colin Anthony	|	6	|
 |	Boswell,Thomas Geoffrey	|	7	|
 |	Marwah,Rishul	|	7	|
 |	Braisted,Travis Earle	|	8	|
@@ -85,7 +86,6 @@
 |	Lagoutis,Yani Anthony	|	34	|
 |	Tarascio,Michael Stephen	|	34	|
 |	Coombs,Nicholas Hayes	|	35	|
-|	Murphy,Colin Anthony	|	35	|
 |	Marcouiller,Lucas Daniel	|	35	|
 | Adam Boislard | 36 |
 | Erik Molina | 36 | 
