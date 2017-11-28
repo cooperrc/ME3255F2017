@@ -45,6 +45,7 @@
 |	Dolan,Patrick James	|	19	|
 |	Vannorsdall,Peter Bruce	|	19	|
 |	Vollaro,Chloe Lou-Da	|	19	|
+|	Zhang,Vincent	|	20	|
 |	Terrell,Tegh	|	20	|
 |	Wong,Jonathan Peter	|	20	|
 |	Garnelis,Jeffrey Daniel	|	21	|
@@ -80,10 +81,11 @@
 |	Maliniak,Matthew	|	32	|
 |	Bhange,Hrishikesh Avinash	|	33	|
 |	Kramer,Matthew	|	33	|
-|	Zhang,Vincent	|	33	|
 |	Jumbo Jara,Jesse Brandon	|	34	|
 |	Lagoutis,Yani Anthony	|	34	|
 |	Tarascio,Michael Stephen	|	34	|
 |	Coombs,Nicholas Hayes	|	35	|
 |	Murphy,Colin Anthony	|	35	|
 |	Marcouiller,Lucas Daniel	|	35	|
+| Adam Boislard | 36 |
+| Erik Molina | 36 | 
