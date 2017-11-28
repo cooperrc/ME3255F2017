@@ -10,7 +10,7 @@ a. Add rcc02007 and zhs15101 as collaborators.
 
 b. Clone the repository to your computer.
 
-**2\.** Solve the initial value problem with y(0)=1,
+**2\.** Solve the initial value problem with y(0)=1, from t=0-3 s,
 
 y'=-y
 
@@ -20,7 +20,7 @@ b. with Euler's method
 
 c. with Heun's predictor-corrector approach
 
-**3\.** Solve the initial value problem with y(0)=1, y'(0)=0
+**3\.** Solve the initial value problem with y(0)=1, y'(0)=0, from t=0-3 s,
 
 y''+9y=0
 
