@@ -13,7 +13,7 @@ In this final project, you and your team mates will design a graphene pressure s
 Graphene is a single-layer of carbon atoms arranged in a hexagonal lattice. Graphene films
 have a thickness of 0.3 nm, Young's modulus of 1 TPa, and Poisson's ratio of 0.31. The
 film has no bending stiffness so the shape of the membrane under a given pressure, P, with
-a pretension, T is given by:
+a pretension per unit length, T is given by:
 
 ![eq1](./equations/eq1.png) (1)
 
@@ -50,7 +50,7 @@ isometric view of the membrane displacement solution and force-balance.
 for the given membrane solution in terms of P and T. `[w]=membrane_solution3(T,P);` The
 output `w` should be a vector, but the solution represents a 2D data set w(x,y). 
 
-**b\.** Solve for w given a pressure, P=0.001 MPa and tension, T=0.006 uN. Plot the result with
+**b\.** Solve for w given a pressure, P=0.001 MPa and tension, T=0.006 uN/um. Plot the result with
 `surf(X,Y,W)` where X, Y, and W are the x-, y-, and z-coordinates of each point on the
 membrane from 0-10um. 
 
@@ -59,7 +59,7 @@ n-by-n interior nodes of w
 for the given membrane solution in terms of P and T. `[w]=membrane_solution(T,P,n);` The
 output `w` should be a vector, but the solution represents a 2D data set w(x,y). 
 
-**d\.** Solve for w given a pressure, P=0.001 MPa and tension, T=0.006 uN with 10 interior
+**d\.** Solve for w given a pressure, P=0.001 MPa and tension, T=0.006 uN/um with 10 interior
 nodes. Plot the result with `surf(X,Y,W)` where X, Y, and W are the x-, y-, and
 z-coordinates of each point on the membrane from 0-10um. Include the graph in your README.
 
@@ -77,7 +77,7 @@ pressure, P=0.001 MPa, and n=[20:5:40] interior nodes.
 Show that the error in tension is decreasing with a table:
 
 ```
-|number of nodes|Tension (uN)| rel. error|
+|number of nodes|Tension (uN/um)| rel. error|
 |---|---|---|
 |20|0.08| n/a|
 |25|0.006|0.5%|
