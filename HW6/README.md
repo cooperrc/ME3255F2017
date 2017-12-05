@@ -31,7 +31,7 @@ b. with Euler's method
 c. with Heun's predictor-corrector approach
 
 **4\.** Solve the freefall problem for x(t), given cd=0.25 kg/m, m=60 kg, from t=0-12 s,
-given x(0)=100 m, v(0)=0 m/s
+given x(0)=1000 m, v(0)=0 m/s
 
 v'=g - cd/m v*v
 
