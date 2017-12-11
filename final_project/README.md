@@ -79,10 +79,11 @@ Show that the error in tension is decreasing with a table:
 ```
 |number of nodes|Tension (uN/um)| rel. error|
 |---|---|---|
-|20|0.08| n/a|
-|25|0.006|0.5%|
-|30|0.006|0.3%|
-|40|0.006|0.2%|
+|3 |0.059 |n/a|
+|20|0.0618|4.5%|
+|25|0.0616|0.3%|
+|30|0.0614|0.3%|
+|40|0.0611|0.3%|
 ```
 
 
